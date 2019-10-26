@@ -1,5 +1,5 @@
 FROM debian:stable-slim
-# 
+# From https://docs.microsoft.com/fr-fr/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-7#debian-10
 RUN apt-get update 
 # install the requirements
 RUN apt-get install -y \
